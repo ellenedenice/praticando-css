@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #4d2e1c;
+}
+
+#container {
+  width: 992px;
+  margin: 0 auto;
+}
+
+.oculto {
+  position: absolute;
+  left: -9999px;
+  overflow: hidden;
+}
+#container {
+  width: 992px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+  padding: 40px 20px 10px;
+  text-align: center;
+}
+
+#menu ul {
+  display: flex;
+  margin-top: 20px;
+  background-color: rgb(77, 60, 60);
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#menu li {
+  display: flex;
+  align-items: center;
+}
+.fakelink {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s, color 0.3s;
+  gap: 5px;
+}
+
+.fakelink:hover {
+  background-color: #a85400;
+  color: white;
+}
+h1 {
+  padding: 20px;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.banner {
+  position: relative;
+  text-align: left;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+.texto-banner {
+  position: absolute;
+  background-color: rgba(76, 32, 0, 0.656);
+  padding: 40px;
+  border-radius: 50%;
+  top: 10%;
+  left: 10%;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 20px;
+  background-color: #f2f2f2;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  max-width: 400px;
+  text-align: left;
+  margin: 0px;
+  border-radius: 50%;
+}
+
+.box img {
+  margin: 20px 0;
+  border-radius: 50%;
+  height: 120px;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+#titles {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#escolha {
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+#loc {
+  padding-right: 195px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+iframe {
+  display: block;
+  height: 300px;
+  width: 400px;
+  border-radius: 13px;
+}
+
+.textiframe {
+  display: block;
+  margin-left: 400px;
+}
+
+.veja {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(103, 0, 0);
+}
